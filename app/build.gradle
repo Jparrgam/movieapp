@@ -138,4 +138,16 @@ dependencies {
 
     // multidex
     implementation "androidx.multidex:multidex:$versions.multidex"
+
+    // testing
+    testImplementation "junit:junit:$versions.junitVersion"
+    testImplementation "androidx.test:core:$versions.androidxTest"
+    testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:$versions.mockitoKotlinVersion"
+    testImplementation "org.mockito:mockito-inline:$versions.mockitoInlineVersion"
+    androidTestImplementation "androidx.test.ext:junit:$versions.androidxTestJunit"
+    androidTestImplementation "com.android.support.test:runner:$versions.androidTestRunner"
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutinesVersion"
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$versions.coroutinesVersion"
+    androidTestImplementation "androidx.arch.core:core-testing:$versions.coreTesting"
+    testImplementation "app.cash.turbine:turbine:$versions.turbineVersion"
 }
