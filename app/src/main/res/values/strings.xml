@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">moviesapp</string>
+    <string name="header_title">Movies</string>
+    <string name="header_subtitle">Popular</string>
+    <string name="unexpected_error_message">It seems that you have a problem with your internet connection, do you want to upload information locally? </string>
+    <string name="button_local_search">Search</string>
+</resources>

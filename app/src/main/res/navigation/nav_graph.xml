@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/searchMoviesFragment">
+
+    <fragment
+        android:id="@+id/searchMoviesFragment"
+        android:name="co.movie.app.ui.fragment.SearchMoviesFragment">
+        <action
+            android:id="@+id/action_searchMoviesFragment_to_detailMovieFragment"
+            app:destination="@id/detailMovieFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailMovieFragment"
+        android:name="co.movie.app.ui.fragment.DetailMovieFragment"
+        android:label="DetailMovieFragment" />
+
+</navigation>
