@@ -60,5 +60,10 @@ ext.versions = [
         mockitoKotlinVersion : '2.2.0',
         mockitoCore          : '3.3.3',
         coreTesting          : '2.1.0',
-        kotlinxCoroutinesTest: '1.3.4'
+        kotlinxCoroutinesTest: '1.3.4',
+        androidxTest         : '1.3.0',
+        androidxTestJunit    : '1.1.2',
+        androidTestRunner    : '1.3.0-beta01',
+        mockitoInlineVersion : '3.5.13',
+        turbineVersion       : '0.2.0'
 ]
