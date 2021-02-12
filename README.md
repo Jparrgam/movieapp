@@ -1,9 +1,9 @@
 # movieapp
 
-![Screen Shot 2021-02-12 at 4.44.50 PM.png](captures/Screen%20Shot%202021-02-12%20at%204.44.50%20PM.png)
-![Screen Shot 2021-02-12 at 4.46.37 PM.png](captures/Screen%20Shot%202021-02-12%20at%204.46.37%20PM.png)
-![Screen Shot 2021-02-12 at 4.45.19 PM.png](captures/Screen%20Shot%202021-02-12%20at%204.45.19%20PM.png)
-![Screen Shot 2021-02-12 at 4.45.07 PM.png](captures/Screen%20Shot%202021-02-12%20at%204.45.07%20PM.png)
+![Screen Shot 2021-02-12 at 4.44.50 PM.png](images/Screen%20Shot%202021-02-12%20at%204.44.50%20PM.png)
+![Screen Shot 2021-02-12 at 4.46.37 PM.png](images/Screen%20Shot%202021-02-12%20at%204.46.37%20PM.png)
+![Screen Shot 2021-02-12 at 4.45.19 PM.png](images/Screen%20Shot%202021-02-12%20at%204.45.19%20PM.png)
+![Screen Shot 2021-02-12 at 4.45.07 PM.png](images/Screen%20Shot%202021-02-12%20at%204.45.07%20PM.png)
 ## Tech stack & Open-source libraries
 - Minimum SDK level 23
 - Compile SDK Version 30
