@@ -150,4 +150,5 @@ dependencies {
     testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$versions.coroutinesVersion"
     androidTestImplementation "androidx.arch.core:core-testing:$versions.coreTesting"
     testImplementation "app.cash.turbine:turbine:$versions.turbineVersion"
+    testImplementation "com.airbnb.android:mavericks-testing:$versions.mavericks"
 }

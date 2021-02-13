@@ -1,18 +1,17 @@
-package co.movie.app
+package co.movie.app.usecase
 
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import org.junit.Rule
 import app.cash.turbine.test
+import co.movie.app.MainCoroutinesRule
 import co.movie.app.core.either.Either
 import co.movie.app.core.exception.Failure
-import co.movie.app.core.http.response.Success
 import co.movie.app.model.MovieResultItemDto
 import co.movie.app.model.MoviesResults
 import co.movie.app.repository.MoviesRepository
-import co.movie.app.usecase.GetMoviesUseCase
 import com.nhaarman.mockitokotlin2.mock
 import com.nhaarman.mockitokotlin2.whenever
-import junit.framework.Assert.*
+import org.junit.Assert.*
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.runBlocking
 import org.junit.Before
