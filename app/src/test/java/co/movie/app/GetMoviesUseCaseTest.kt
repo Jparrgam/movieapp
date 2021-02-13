@@ -45,7 +45,7 @@ class GetMoviesUseCaseTest {
 
         getMoviesUseCase.run(params = 0).test {
             assertEquals(expectError().message, "page must be greater than 0")
-            assertNull(expectError().message)
+            assertNotNull(expectError().message)
             expectComplete()
         }
     }
