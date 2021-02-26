@@ -50,6 +50,10 @@ android {
         useIR = true
     }
 
+    buildFeatures {
+        compose true
+    }
+
     sourceSets {
         androidTest.java.srcDirs += "src/test-common/java"
         test.java.srcDirs += "src/test-common/java"
@@ -94,6 +98,17 @@ dependencies {
 
     // androidx
     implementation "androidx.core:core-ktx:$versions.coreKtx"
+
+    // compose
+    implementation "androidx.compose.runtime:runtime:$versions.composeVersion"
+    implementation "androidx.compose.ui:ui:$versions.composeVersion"
+    implementation "androidx.compose.foundation:foundation-layout:$versions.composeVersion"
+    implementation "androidx.compose.material:material:$versions.composeVersion"
+    implementation "androidx.compose.material:material-icons-extended:$versions.composeVersion"
+    implementation "androidx.compose.foundation:foundation:$versions.composeVersion"
+    implementation "androidx.compose.animation:animation:$versions.composeVersion"
+    implementation "androidx.compose.ui:ui-tooling:$versions.composeVersion"
+    implementation "androidx.compose.runtime:runtime-livedata:$versions.composeVersion"
 
     // mavericks
     implementation "com.airbnb.android:mavericks:$versions.mavericks"
