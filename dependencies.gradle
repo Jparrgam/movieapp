@@ -5,7 +5,7 @@ ext.versions = [
         versionName          : '0.0.1',
         buildToolsVersion    : '30.0.3',
 
-        gradleBuildTool      : '7.0.0-alpha05',
+        gradleBuildTool      : '7.0.0-alpha14',
         kotlin               : '1.4.21',
 
         // material
