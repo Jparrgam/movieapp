@@ -10,7 +10,7 @@ on:
 
 jobs:
   apk-beta:
-    name: Generate APK
+    name: Build apk master
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
@@ -18,6 +18,8 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 11
+      - name: Install fastlane
+        run: brew install fastlane
       - name: Build APK
         run: bash ./gradlew assembleDebug --stacktrace
       - name: Upload APK
