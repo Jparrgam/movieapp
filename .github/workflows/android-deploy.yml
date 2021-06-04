@@ -1,6 +1,7 @@
 name: Android CD
 
 on:
+  pull_request:
   push:
     branches:
       - master
@@ -8,21 +9,17 @@ on:
       - staging
 
 jobs:
-  apk:
+  apk-beta:
     name: Generate APK
-    needs: test
     runs-on: macos-latest
     steps:
-      - name: Checkout
-        uses: actions/chegckout@v1
+      - uses: actions/checkout@v2
       - name: Setup JDK
         uses: actions/setup-java@v1
         with:
           java-version: 1.8
-      - name: "building apk"
-        uses: vgaidarji/android-github-actions-build@v1.0.1
-        with:
-          args: "./gradlew assembleDebug"
+      - name: Build APK
+          run: bash ./gradlew assembleDebug --stacktrace
       - name: Upload APK
         uses: actions/upload-artifact@v1
         with:
